@@ -1,0 +1,40 @@
+#divDatosExternos {
+    border-radius: 20px; 
+    height: 700px; 
+    overflow-y: scroll;
+    background-color: beige;
+}
+
+body
+{
+    background-repeat: no-repeat;
+}
+
+.textoCentrado
+{
+    text-align: center;
+}
+
+#formAviso{
+    border-radius: 20px; 
+    height: 700px; 
+    width: 100%;
+    background-color: beige;
+}
+
+#imgArticulo
+{
+    width:100%; 
+    height:150px;
+}
+
+.fullWidthButton
+{
+    width: 100%;
+}
+
+#imgProds{
+    width:"200";
+    height:"200";
+    
+}

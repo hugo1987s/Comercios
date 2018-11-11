@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>COOP - Publicar Aviso</title>
+
+    <!-- Custom -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link href="css/listadoProductos.css" rel="stylesheet">
+    <link href="css/publicarAviso.css" rel="stylesheet">
+
+    <script src="scripts/config.js"></script>
+    <script src="scripts/consultaMeli.js"></script>
+    <script src="scripts/publicarAviso.js"></script>
+</head>
+
+
+<body background="images/login_background.jpg">
+    </br>
+    <div>
+        <div id="principal">
+            <div id="central">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="textoCentrado">
+                            <h2>Publicar Aviso</h2>
+                            <hr>
+                        </div>
+
+                    </div>
+                </div>
+                </br>
+            </div>
+        </div>
+        </br>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="col-md-6">
+                    <div id="divAviso">
+                        <h3 class="textoCentrado">Datos del aviso</h3>
+
+                        <form id="formAviso" class="jumbotron container">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <h5>Titulo del aviso</h5>
+                                </div>
+                                <div class="col-md-9"><input type="text" class="form-control" id="txtTituloAviso"
+                                        maxlength="100" /></div>
+                            </div>
+                            </br>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <h5>Producto a buscar</h5>
+                                </div>
+                                <div class="col-md-5">
+                                    <input type="text" class="form-control" id="txtProductoComparar" maxlength="100" />
+                                </div>
+                                <div class="col-md-4">
+
+                                    <button type="button" class="btn btn-info block" id="btnConsultar" onclick="ConsultarPrecio($('#txtProductoComparar').val());">Consultar
+                                        precios</button>
+                                </div>
+                            </div>
+                            </br>
+
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <h5>Descripción</h5>
+                                </div>
+                                <div class="col-md-9"><textarea class="form-control" id="txtDescripción" maxlength="100"></textarea></div>
+                            </div>
+                            </br>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <h5>Categoría</h5>
+                                </div>
+                                <div class="col-md-9"><select class="form-control" id="cboCategoria">
+                                        <option>Seleccione</option>
+                                        <option>Calzado</option>
+                                        <option>Deportes</option>
+                                        <option>Camping</option>
+                                        <option>Salud</option>
+                                    </select> </div>
+                            </div>
+                            </br>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <h5>Imagen</h5>
+                                </div>
+                                <div class="col-md-4">
+
+                                    <img id="imgArticulo" src="./images/no-image.png">
+                                    <input type="file" id="btnExaminar" />
+                                </div>
+                            </div>
+                            </br>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <h5>Precio</h5>
+                                </div>
+                                <div class="col-md-3"><input type="number" class="form-control" id="txtPrecio" min="0"
+                                        maxlength="6" step=".01" /></div>
+                                <div class="col-md-2">
+                                    <h5>Moneda</h5>
+                                </div>
+                                <div class="col-md-4">
+                                    <select class="form-control" id="cboCategoria">
+                                        <option>Seleccione</option>
+                                        <option>ARS</option>
+                                        <option>USD</option>
+                                        <option>EURO</option>
+                                    </select> </div>
+                            </div>
+                            </br>
+                            </br>
+                            <div class="row">
+                                <div class="col-md-2"></div>
+                                <div class="col-md-8"><input type="submit" class="btn btn-success fullWidthButton" id="btnSubmit"
+                                        value="Publicar Aviso" /></div>
+
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+                <div class="col-md-6">
+                    <div id="divConsultaExterna">
+                        <h3 style="text-align: center">Productos similares</h3>
+                        <div id="divDatosExternos" class="jumbotron">
+                            <span id="spanExtenalData"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
