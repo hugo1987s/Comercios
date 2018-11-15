@@ -18,7 +18,19 @@ $(document).ready(function () {
     readURL(this);
   });
 
+  $("#divConsultaExterna").css("display", "none");
+  $("#divAviso").width("200%");
 
+
+  $( "#formAviso" ).submit(function( event ) {
+    $("input[type=text]").val("");
+    $("textarea").val("");
+    $("input[type=number]").val("");
+    $("select").prop('selectedIndex',0);
+    
+    alert('Aviso publicado correctamente!');
+    
+  });
 });
 
 function ConsultarPrecio(valorABuscar) {
@@ -26,6 +38,8 @@ function ConsultarPrecio(valorABuscar) {
   if(valorABuscar != "")
   {
       consultarProductos(valorABuscar);
+      $("#divConsultaExterna").css("display", "block");
+      $("#divAviso").width("100%");
   }
   
 }

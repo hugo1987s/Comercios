@@ -52,7 +52,7 @@
                 </br>
             </div>
         </div>
-        </br>
+        
 
         <div class="row">
             <div class="col-md-12">
@@ -63,15 +63,18 @@
                         <form id="formAviso" class="jumbotron container">
                             <div class="row">
                                 <div class="col-md-3">
-                                    <h5>Titulo del aviso</h5>
+                                    <h5>Tipo de Aviso</h5>
                                 </div>
-                                <div class="col-md-9"><input type="text" class="form-control" id="txtTituloAviso"
-                                        maxlength="100" /></div>
+                                <div class="col-md-9"><select class="form-control" id="cboTipoAviso">
+                                        <option>Seleccione</option>
+                                        <option>Producto</option>
+                                        <option>Servicio</option>
+                                    </select> </div>
                             </div>
                             </br>
                             <div class="row">
                                 <div class="col-md-3">
-                                    <h5>Producto a buscar</h5>
+                                    <h5>Producto/Servicio</h5>
                                 </div>
                                 <div class="col-md-5">
                                     <input type="text" class="form-control" id="txtProductoComparar" maxlength="100" />
@@ -88,7 +91,7 @@
                                 <div class="col-md-3">
                                     <h5>Descripción</h5>
                                 </div>
-                                <div class="col-md-9"><textarea class="form-control" id="txtDescripción" maxlength="100"></textarea></div>
+                                <div class="col-md-9"><textarea class="form-control" id="txtDescripcion" maxlength="100"></textarea></div>
                             </div>
                             </br>
                             <div class="row">
@@ -133,6 +136,16 @@
                                     </select> </div>
                             </div>
                             </br>
+                            <div class="row">
+                                    <div class="col-md-3">
+                                        <h5>Promoción</h5>
+                                    </div>
+                                    <div class="col-md-9">
+                                        <textarea id="txtPromocion" class="form-control" maxlength="100"></textarea>
+                                    </div>
+                                  
+                                </div>
+
                             </br>
                             <div class="row">
                                 <div class="col-md-2"></div>
