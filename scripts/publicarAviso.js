@@ -28,7 +28,8 @@ $(document).ready(function () {
     $("input[type=number]").val("");
     $("select").prop('selectedIndex',0);
     
-    alert('Aviso publicado correctamente!');
+    //window.location.href("../../AvisoPublicado.html");
+    $(location).attr('href', '../AvisoPublicado.html');
     
   });
 });

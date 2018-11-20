@@ -10,7 +10,6 @@ function consultarProductos(prodABuscar) {
         return $.ajax(url + urlGeneralByText + productoABuscar);
     }
     var responseExtract = function (attr, response) {
-        console.log(response[attr]);
         return response[attr]
     }
 
