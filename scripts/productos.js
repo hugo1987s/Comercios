@@ -5,8 +5,9 @@ var listadoAvisos = JSON.parse(listadoAvisosJS);
 
 function init() {
     $(document).ready(function () {
+        
         $("#divMapa").css("display", "none");
-        $("#divGrilla").css("display", "none");
+        $("#contenedorResultados").css("display", "none");
     });
 
     map = createMap('divMapa');
@@ -35,7 +36,7 @@ function buscarArticulos(valorABuscar) {
     var comercios = [];
 
     $("#divMapa").css("display", "block");
-    $("#divGrilla").css("display", "block");
+    $("#contenedorResultados").css("display", "block");
 
     $("#listaNegocios").empty();
     $("#listaAvisosRel").empty();
@@ -73,7 +74,7 @@ function actualizarInfoComercios(listaComercios) {
 }
 
 function armarPopup(datosComercio) {
-    return '<h4>' + datosComercio.Vendedor + '</h4>' +
+    return '<h4 class="h4local">' + datosComercio.Vendedor + '</h4>' +
         '<b>Domicilio:</b> ' + datosComercio.Domicilio +
         '<br><b>Telefono:</b> ' + datosComercio.Telefono +
         '<br><b>Horario:</b> ' + datosComercio.Horario +
@@ -81,7 +82,7 @@ function armarPopup(datosComercio) {
 }
 
 function armarAviso(datosAviso, nombreComercio) {
-    return '<h4>' + datosAviso.Articulo + '</h4>' +
+    return '<h4 class="h4local">' + datosAviso.Articulo + '</h4>' +
         '<b>Categoría:</b> ' + datosAviso.Categoria +
         '<br><b>Vendedor:</b> ' + nombreComercio +
         '<br><b>Precio:</b> ' + datosAviso.Precio +

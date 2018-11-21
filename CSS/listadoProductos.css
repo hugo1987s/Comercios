@@ -96,4 +96,20 @@ h4
 
 li {
   list-style-type: none; 
+  background-color: rgb(161, 78, 9);
+  border-radius: 20px;
+  color: rgb(251, 255, 11);
+  width: 99%;
+  text-align: center;
+}
+
+ul{
+  background-color: none; 
+  width: 99%; 
+  margin: 2px; 
+  padding: 2px;
+}
+
+.h4local{
+  background-color: rgb(87, 41, 3);
 }

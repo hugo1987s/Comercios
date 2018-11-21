@@ -28,8 +28,9 @@ $(document).ready(function () {
     $("input[type=number]").val("");
     $("select").prop('selectedIndex',0);
     
-    //window.location.href("../../AvisoPublicado.html");
-    $(location).attr('href', '../AvisoPublicado.html');
+    window.location.href = "AvisoPublicado.html";
+    return false;
+    //$(location).attr('href', '../AvisoPublicado.html');
     
   });
 });
