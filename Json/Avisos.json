@@ -1,0 +1,110 @@
+[
+    {
+        "CodigoComercio": "1",
+        "Categoria": "Zapatillas",
+        "Estado": "Activo",
+        "Articulo": "Adiba XS",
+        "Precio": "2150,99",
+        "FechaAlta": "2018/10/10",
+        "Imagen": "",
+        "EsServicio": "No",
+        "Promocion": "",
+        "TipoAviso": "Venta Directa"
+    },
+    {
+        "CodigoComercio": "1",
+        "Categoria": "Zapatillas",
+        "Estado": "Activo",
+        "Articulo": "Nike",
+        "Precio": "3850,50",
+        "FechaAlta": "2018/10/10",
+        "Imagen": "",
+        "EsServicio": "No",
+        "Promocion": "",
+        "TipoAviso": "Venta Directa"
+    },
+    {
+        "CodigoComercio": "2",
+        "Categoria": "Electro",
+        "Estado": "Activo",
+        "Articulo": "Lavarropa",
+        "Precio": "13599,99",
+        "FechaAlta": "2018/10/10",
+        "Imagen": "",
+        "EsServicio": "No",
+        "Promocion": "",
+        "TipoAviso": "Venta Directa"
+    },
+    {
+        "CodigoComercio": "3",
+        "Categoria": "Camping",
+        "Estado": "Activo",
+        "Articulo": "Termo XL",
+        "Precio": "341,46",
+        "FechaAlta": "2018/10/10",
+        "Imagen": "",
+        "EsServicio": "No",
+        "Promocion": "",
+        "TipoAviso": "Venta Directa"
+    },
+    {
+        "CodigoComercio": "4",
+        "Categoria": "Camping",
+        "Estado": "Activo",
+        "Articulo": "Carpa 6p",
+        "Precio": "12000,99",
+        "FechaAlta": "2018/10/10",
+        "Imagen": "",
+        "EsServicio": "No",
+        "Promocion": "",
+        "TipoAviso": "Venta Directa"
+    },
+    {
+        "CodigoComercio": "5",
+        "Categoria": "Perfumeria",
+        "Estado": "Activo",
+        "Articulo": "Colonia Pibes",
+        "Precio": "34,99",
+        "FechaAlta": "2018/10/10",
+        "Imagen": "",
+        "EsServicio": "No",
+        "Promocion": "",
+        "TipoAviso": "Venta Directa"
+    },
+    {
+        "CodigoComercio": "5",
+        "Categoria": "Perfumeria",
+        "Estado": "Activo",
+        "Articulo": "Desodorante",
+        "Precio": "70,00",
+        "FechaAlta": "2018/10/10",
+        "Imagen": "",
+        "EsServicio": "No",
+        "Promocion": "",
+        "TipoAviso": "Venta Directa"
+    },
+    {
+        "CodigoComercio": "8",
+        "Categoria": "Bazar",
+        "Estado": "Activo",
+        "Articulo": "Plato cuadrado",
+        "Precio": "45,00",
+        "FechaAlta": "2018/10/10",
+        "Imagen": "",
+        "EsServicio": "No",
+        "Promocion": "",
+        "TipoAviso": "Venta Directa"
+    },
+    {
+        "CodigoComercio": "9",
+        "Categoria": "Deportes",
+        "Estado": "Activo",
+        "Articulo": "Pelota n5",
+        "Precio": "700,00",
+        "FechaAlta": "2018/10/10",
+        "Imagen": "",
+        "EsServicio": "No",
+        "Promocion": "",
+        "TipoAviso": "Venta Directa"
+    }
+]

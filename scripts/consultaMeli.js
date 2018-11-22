@@ -7,6 +7,7 @@ function consultarProductos(prodABuscar) {
     // OPCIÓN 3: Promises. Request asincrónico evitando el callbackhell.   ****
 
     var requestProductos = function (productoABuscar) {
+        console.log($.ajax(url + urlGeneralByText + productoABuscar));
         return $.ajax(url + urlGeneralByText + productoABuscar);
     }
     var responseExtract = function (attr, response) {

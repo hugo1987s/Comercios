@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>SeguimientoPedido</title>
+	
+	<script src="scripts/jquery-3.1.1.min.js"></script>
+
+	<link rel="stylesheet" href="./leaflet/leaflet.css" />
+    <script src="./leaflet/leaflet.js"></script>
+	
+	<script src="scripts/config.js"></script>
+	<script src="scripts/mapCreation.js"></script>
+    <script src="scripts/runner.js"></script>
+    <script src="scripts/race.js"></script>
+    <link rel="stylesheet" type="text/css" href="CSS/seguimientoPedidos.css">
+	<script src="scripts/seguimientoPedidos.js"></script>
+</head>
+<body>
+	<div class="main" id="pedido">
+		<div>
+			<select id="pedidos" class="caja">
+					<option value="">Seleccione un Pedido...</option>
+					<option id="42" value="42">Empanadas</option>
+					<option id="80" value="80">Pizza</option>
+			</select>
+		</div>
+			<input id="aceptar" type="button" value="Aceptar">
+			<input id="rechazar" type="button" value="Rechazar">
+			
+		<div id="conductores">
+		</div>
+	</div>
+
+	<div id="mapid">
+	</div>
+	<div id="incidents">
+		<h4>Lista de incidentes</h4>
+	</div>
+</body>
+</html>

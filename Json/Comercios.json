@@ -1,0 +1,110 @@
+[
+    {
+        "IdComercio": "1",
+        "Categoria": "Zapatillas",
+        "Articulo": "Adiba XS",
+        "Precio": "2150",
+        "Vendedor": "Adidas Store",
+        "Latitud": "-34.515594",
+        "Longitud": "-58.705654",
+        "Domicilio": "Callao 124",
+        "Telefono": "(011)1234-5678",
+        "Horario": "Lunes a Viernes de 8 a 16"
+    },
+    {
+        "IdComercio": "2",
+        "Categoria": "Zapatillas",
+        "Articulo": "Keni Full HD",
+        "Precio": "3560",
+        "Vendedor": "Dexter",
+        "Latitud": "-34.523503",
+        "Longitud": "-58.714062",
+        "Domicilio": "Gutierrez 600",
+        "Telefono": "(02320)-112233",
+        "Horario": "Lunes a Lunes, Las 24 hs"
+    },
+    {
+        "IdComercio": "3",
+        "Categoria": "Zapatillas",
+        "Articulo": "ToppEL",
+        "Precio": "390",
+        "Vendedor": "Dash",
+        "Latitud": "-34.519177",
+        "Longitud": "-58.719890",
+        "Domicilio": "Pampa y la via",
+        "Telefono": "15-3322-4422",
+        "Horario": "Lunes a Sábado de 8 a 12 y de 16 a 20"
+    },
+    {
+        "IdComercio": "4",
+        "Categoria": "Camping",
+        "Articulo": "Termo del profe",
+        "Precio": "1685.98",
+        "Vendedor": "Top Camping",
+        "Latitud": "-34.511089",
+        "Longitud": "-58.711374",
+        "Domicilio": "Azcuenaga 432",
+        "Telefono": "(0230)-442233",
+        "Horario": "Lunes de 8 a 20"
+    },
+    {
+        "IdComercio": "5",
+        "Categoria": "Camping",
+        "Articulo": "Carpas",
+        "Precio": "5325.99",
+        "Vendedor": "Camping A Full",
+        "Latitud": "-34.514062",
+        "Longitud": "-58.707909",
+        "Domicilio": "Mitre 1443",
+        "Telefono": "4664-3221",
+        "Horario": "Sábado y Domingo de 12 a 00"
+    },
+    {
+        "IdComercio": "6",
+        "Categoria": "Heladeras",
+        "Articulo": "Heladera Helatodo",
+        "Precio": "19999.99",
+        "Vendedor": "Riveiro",
+        "Latitud": "-34.513824",
+        "Longitud": "-58.707584",
+        "Domicilio": "San Ignacio 200",
+        "Telefono": "02320-334521",
+        "Horario": "Lunes Miércoles y Viernes de 10 a 12 y de 17 a 20"
+    },
+    {
+        "IdComercio": "7",
+        "Categoria": "Heladeras",
+        "Articulo": "Heladera NoEnfriaNada pero Smart",
+        "Precio": "28354.99",
+        "Vendedor": "Garbarino",
+        "Latitud": "-34.513834",
+        "Longitud": "-58.707574",
+        "Domicilio": "Congreso 4432",
+        "Telefono": "No dispone",
+        "Horario": "Viernes de 15 a 21"
+    },
+    {
+        "IdComercio": "8",
+        "Categoria": "Lavarropas",
+        "Articulo": "Lavarropas Turbinol c wifi",
+        "Precio": "22000",
+        "Vendedor": "Coto",
+        "Latitud": "-33.113844",
+        "Longitud": "-58.707564",
+        "Domicilio": "-",
+        "Telefono": "-",
+        "Horario": "Lunes a Viernes de 9 a 18"
+    },
+    {
+        "IdComercio": "9",
+        "Categoria": "Lavarropas",
+        "Articulo": "Lavarropas Muevelo",
+        "Precio": "15500",
+        "Vendedor": "Fravega",
+        "Latitud": "-33.513854",
+        "Longitud": "-58.707554",
+        "Domicilio": "N/A",
+        "Telefono": "15-4332-1223",
+        "Horario": "Lunes a Viernes de 13 a 22"
+    }
+]
